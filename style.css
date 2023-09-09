@@ -1,0 +1,660 @@
+body {
+    font-family: 'Merriweather', serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 15px;
+}
+
+p {
+    color: #577592;
+    font-weight: 100;
+}
+
+
+/*container*/
+
+.container {
+    max-width: 1170px;
+    margin: 0 auto;
+    padding: 0 30px;
+}
+
+
+/*grid*/
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+}
+
+
+/*top-banner*/
+
+.top_banner {
+    width: 100%;
+    background-color: #e74694;
+    text-align: center;
+    padding: 10px 0;
+    background-image: url(./images/ImageAssistant_Batch_Image_Downloader/usabilityhub.com/UsabilityHub_User_Research_Usability_Testing_Platform/assests\ \(24\).png);
+    background-size: 300px;
+}
+
+.top_banner a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.toggle {
+    display: none;
+}
+
+
+/*header*/
+
+header {
+    margin-top: 2rem;
+}
+
+.head {
+    grid-template-columns: 29% 1% 70%;
+}
+
+nav .grid {
+    grid-template-columns: repeat(6, 120px);
+    justify-items: center;
+    font-size: 1.2rem;
+    list-style: none;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #183b56;
+}
+
+
+/*button*/
+
+.btn {
+    width: 120px;
+    height: 25px;
+    border: none;
+    font-family: 'Merriweather', serif;
+}
+
+.btn_1,
+.btn_2 {
+    width: 80px;
+    height: 35px;
+    background: none;
+    border: 1px solid #b9cde4;
+    border-radius: 4px;
+    font-weight: 600;
+    color: #183b56;
+    cursor: pointer;
+    font-family: 'Merriweather', serif;
+}
+
+.btn_2 {
+    background-color: #2294ed;
+    box-shadow: 0 3px 5px 0 rgb(0 0 0 / 10%);
+    color: #fff;
+    font-family: 'Merriweather', serif;
+}
+
+
+/*banner*/
+
+.banner {
+    margin-top: 5rem;
+    grid-column-gap: 150px;
+}
+
+.banner h1 {
+    font-size: 3rem;
+    letter-spacing: -1px;
+    color: #183b56;
+    line-height: 1.2;
+    font-weight: 600;
+}
+
+.banner p {
+    font-size: 1.3rem;
+    line-height: 1.5;
+    margin: 20px 0 30px 0;
+}
+
+.click_btn {
+    background-color: #2294ed;
+    box-shadow: 0 3px 5px 0 rgb(0 0 0 / 10%);
+    border: none;
+    border-radius: 4px;
+    padding: 16px 32px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    font-family: 'Merriweather', serif;
+}
+
+
+/*slides*/
+
+.slides {
+    text-align: center;
+    padding: 6rem 3rem;
+}
+
+.slides h3 {
+    color: #577592;
+    font-size: 1.3rem;
+}
+
+.slider {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 30px 0;
+}
+
+.slider img {
+    height: 40px;
+}
+
+
+/*research-section*/
+
+.research {
+    text-align: center;
+}
+
+.research h2 {
+    font-size: 2rem;
+    letter-spacing: 1px;
+    color: #183b56;
+}
+
+.research .boxes {
+    grid-template-columns: repeat(3, 1fr);
+    padding: 40px 70px;
+}
+
+.research .boxes .box {
+    line-height: 2.4rem;
+    margin-bottom: 2.4rem;
+}
+
+.research .boxes .box img {
+    width: 50px;
+}
+
+.research .boxes .box h3 {
+    font-size: 1.6rem;
+    font-weight: 300;
+    color: #183b56;
+}
+
+.research .boxes .box p {
+    font-size: 1rem;
+    line-height: 2rem;
+}
+
+.btn-4,
+.btn-5 {
+    border: 2px solid #b9cde4;
+    background-color: transparent;
+    padding: 10px 20px;
+    border-radius: 4px;
+    color: #183b56;
+    font-size: 16px;
+    font-weight: 600;
+    margin-top: 1.4rem;
+    cursor: pointer;
+    font-family: 'Merriweather', serif;
+}
+
+
+/*testimonial*/
+
+.testimonial {
+    padding: 3rem 30px;
+}
+
+.testimonial .testi {
+    gap: 80px;
+    color: #183b56;
+    margin-bottom: 2rem;
+}
+
+.testimonial .testi .summary_2 {
+    grid-area: 1/1/2/2;
+}
+
+.testimonial .testi .summary h5 {
+    font-size: 1rem;
+}
+
+.testimonial .testi .summary h2 {
+    font-size: 1.8rem;
+    font-weight: 500;
+    margin-top: 1rem;
+}
+
+.testimonial .testi .summary p {
+    font-size: 1.2rem;
+    line-height: 1.8rem;
+    margin: 1rem 0;
+}
+
+.testimonial .testi .summary .self {
+    grid-template-columns: 100px 300px;
+    line-height: 0;
+    align-items: end;
+    gap: 1rem;
+}
+
+
+/*examples*/
+
+main {
+    padding: 4rem 0!important;
+}
+
+main .title {
+    text-align: center;
+}
+
+main h1 {
+    font-size: 2rem;
+    letter-spacing: 1px;
+    color: #183b56;
+}
+
+.examples {
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 20px;
+    margin: 2rem 0;
+}
+
+.examples .example {
+    position: relative;
+    height: 300px;
+    overflow: hidden;
+    background-size: contain;
+}
+
+.examples .example .overlay {
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(rgb(0, 0, 0, 0.1), rgb(0, 0, 0, 0.8)), url(./images/ImageAssistant_Batch_Image_Downloader/usabilityhub.com/UsabilityHub_User_Research_Usability_Testing_Platform/assests.jpg);
+    background-size: cover;
+    transition: all .3s ease;
+}
+
+.examples .example .overlay:hover {
+    transform: scale(1.2);
+}
+
+.examples .example .overlay-2 {
+    background: linear-gradient(rgb(0, 0, 0, 0.1), rgb(0, 0, 0, 0.8)), url(./images/ImageAssistant_Batch_Image_Downloader/usabilityhub.com/UsabilityHub_User_Research_Usability_Testing_Platform/assests\ \(1\).jpg);
+    background-size: cover;
+}
+
+.examples .example .overlay-3 {
+    background: linear-gradient(rgb(0, 0, 0, 0.1), rgb(0, 0, 0, 0.8)), url(./images/ImageAssistant_Batch_Image_Downloader/usabilityhub.com/UsabilityHub_User_Research_Usability_Testing_Platform/assests\ \(2\).jpg);
+    background-size: cover;
+}
+
+.examples .example .overlay-4 {
+    background: linear-gradient(rgb(0, 0, 0, 0.1), rgb(0, 0, 0, 0.8)), url(./images/ImageAssistant_Batch_Image_Downloader/usabilityhub.com/UsabilityHub_User_Research_Usability_Testing_Platform/assests\ \(3\).jpg);
+    background-size: cover;
+}
+
+.examples .example h2 {
+    position: absolute;
+    bottom: 2rem;
+    left: 1.4vw;
+    color: #fff;
+    font-weight: 100;
+    font-size: 1.8vw;
+}
+
+
+/*aside*/
+
+aside {
+    width: 100%;
+    background-color: slategray;
+    color: #fff;
+    padding: 3rem 0;
+}
+
+aside .participants h1 {
+    font-size: 1.8rem;
+    line-height: 3rem;
+}
+
+aside .participants p {
+    line-height: 2rem;
+    color: #fff!important;
+    font-weight: 100;
+    padding: 1rem 0;
+}
+
+aside .participants .parti ul {
+    margin-left: 1rem;
+    padding-top: 1rem;
+}
+
+aside .participants .parti ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 100;
+    line-height: 2rem;
+}
+
+.click_btn_2 {
+    padding: 0;
+    width: 120px;
+    height: 40px;
+    margin-top: 2rem;
+    font-family: 'Merriweather', serif;
+}
+
+.panelad {
+    height: 40vw;
+    width: 100%;
+}
+
+.panelad-image {
+    width: 100%;
+    height: 100%;
+    background-image: url(./images/ImageAssistant_Batch_Image_Downloader/usabilityhub.com/UsabilityHub_User_Research_Usability_Testing_Platform/assests\ \(25\).png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+    display: grid;
+    align-items: center;
+    justify-items: center;
+}
+
+.panelad-price {
+    width: 50%;
+    height: 50%;
+    background-image: url(./images/ImageAssistant_Batch_Image_Downloader/usabilityhub.com/UsabilityHub_User_Research_Usability_Testing_Platform/assests\ \(27\).png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+    display: grid;
+    align-items: center;
+    justify-items: center;
+}
+
+.panelad .panelad-image .panelad-price h5 {
+    color: #183b56;
+    line-height: 1.8rem;
+    text-align: center;
+    font-size: 1rem;
+}
+
+.panelad .panelad-image .panelad-price .usd,
+.panelad .panelad-image .panelad-price .fa-usd {
+    color: gray;
+    font-size: 1.1rem;
+    font-weight: 100;
+}
+
+.panelad .panelad-image .panelad-price .highlight {
+    color: #2294ed;
+    font-size: 2.5rem;
+}
+
+
+/*testing*/
+
+.testing {
+    text-align: center;
+    padding: 6rem 0;
+    line-height: 4.5rem;
+}
+
+.testing h1 {
+    font-size: 2rem;
+}
+
+.testing p {
+    font-size: 1rem;
+}
+
+
+/*footer*/
+
+footer {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    background-color: #ebf0f4;
+    line-height: 2rem;
+    padding-top: 5rem!important;
+    padding-bottom: 4rem!important;
+}
+
+footer h3 {
+    font-size: 1.1rem;
+    padding-bottom: 1rem;
+}
+
+footer ul li,
+.sub_footer ul li {
+    list-style: none;
+}
+
+footer ul li a,
+.sub_footer ul li a {
+    text-decoration: none;
+    color: #183b56;
+    font-size: 0.9rem;
+}
+
+
+/*sub_footer*/
+
+.sub_footer {
+    background-color: #acbfd0;
+    padding-top: 1.5rem!important;
+    padding-bottom: 1.5rem!important;
+}
+
+.short {
+    max-width: 750px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 500px 250px;
+}
+
+.notice ul {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.social {
+    display: grid;
+    justify-content: end;
+    grid-template-columns: repeat(4, 40px);
+}
+
+
+/*media-query*/
+
+@media (max-width:1068px) {
+    nav {
+        grid-row-start: 3;
+        grid-row-end: 4;
+        margin-top: 2rem;
+        display: none;
+    }
+    nav .grid {
+        grid-template-columns: 100%;
+        gap: 2rem;
+        justify-items: start;
+        padding-left: 1rem;
+    }
+    .btn {
+        display: none;
+    }
+    .toggle {
+        display: grid;
+        justify-content: end;
+        font-size: 2rem;
+        cursor: pointer;
+    }
+    .head {
+        grid-template-columns: 50% 50% 100%;
+    }
+}
+
+@media (max-width:1030px) {
+    .slider {
+        gap: 20px;
+        justify-content: space-evenly;
+    }
+}
+
+@media (max-width:989px) {
+    html {
+        font-size: 12px;
+    }
+    .banner {
+        grid-column-gap: 100px;
+    }
+}
+
+@media (max-width:889px) {
+    .research .boxes {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 1rem;
+    }
+}
+
+@media (max-width:802px) {
+    .banner {
+        grid-template-columns: 1fr;
+    }
+    .banner .text {
+        grid-row-start: 3;
+        grid-row-end: 4;
+        padding-top: 3rem;
+    }
+    .testimonial .testi {
+        grid-template-columns: 1fr;
+        padding-top: 3rem;
+        gap: 20px;
+    }
+    .testimonial .testi .summary_2 {
+        grid-row-start: 3;
+        grid-row-end: 4;
+    }
+    .examples {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .examples .example h2 {
+        font-size: 2.4vw;
+    }
+    .aside {
+        grid-template-columns: 1fr;
+    }
+    .aside .participants .parti {
+        grid-template-columns: 1fr;
+    }
+    .panelad {
+        margin-top: 3rem;
+        height: 100vw;
+    }
+    footer {
+        grid-template-columns: 1fr;
+        text-align: center;
+        gap: 1rem;
+    }
+    footer .user img {
+        width: 20%;
+    }
+    .sub_footer {
+        padding-top: 3rem!important;
+        padding-bottom: 3rem!important;
+    }
+    .short {
+        grid-template-columns: 1fr;
+        text-align: center;
+        gap: 2rem;
+    }
+    .notice ul {
+        grid-template-columns: 1fr;
+        gap: 1rem;
+    }
+    .social {
+        grid-template-columns: 1fr;
+        gap: 1rem;
+    }
+}
+
+@media (max-width:600px) {
+    header .head .logo a {
+        width: 45vw;
+    }
+    .research .boxes {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width:499px) {
+    footer .user img {
+        width: 30%;
+    }
+}
+
+@media (max-width:440px) {
+    .testimonial .testi .summary .self {
+        grid-template-columns: 100px 200px;
+    }
+    .examples {
+        grid-template-columns: 1fr;
+    }
+    .examples .example {
+        height: 200px;
+        background-position: center center;
+    }
+    .examples .example h2 {
+        font-size: 4vw;
+    }
+}
+
+@media (max-width:391px) {
+    html {
+        font-size: 10px;
+    }
+    .testimonial .testi .summary .self {
+        grid-template-columns: 1fr;
+        gap: 2rem;
+    }
+    footer .user img {
+        width: 40%;
+    }
+}
+
+@media (max-width:324px) {
+    .btn-5 {
+        font-size: 12px;
+    }
+}
+
+@media (min-width:1450px) {
+    .examples .example h2 {
+        font-size: 1.5vw;
+    }
+}
